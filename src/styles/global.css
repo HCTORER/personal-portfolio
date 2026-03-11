@@ -1,0 +1,266 @@
+/* ======================================== */
+/* GLOBAL */
+/* ======================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ======================================== */
+/* NAVBAR */
+/* ======================================== */
+
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.nav-link.active {
+  font-weight: 600;
+  color: #0d6efd !important;
+}
+
+/* ======================================== */
+/* FOOTER */
+/* ======================================== */
+
+footer {
+  font-size: 0.95rem;
+  letter-spacing: 0.3px;
+}
+
+/* ======================================== */
+/* HERO */
+/* ======================================== */
+
+.hero-image {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero animation */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-text {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.hero-visual {
+  animation: fadeUp 1s ease forwards;
+}
+
+/* ======================================== */
+/* SOCIAL ICONS */
+/* ======================================== */
+
+.social-icon {
+  color: #333;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.social-icon:hover {
+  color: #0d6efd;
+  transform: scale(1.15);
+}
+
+/* ======================================== */
+/* CARDS */
+/* ======================================== */
+
+.skill-card,
+.project-card,
+.contact-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.skill-card:hover,
+.project-card:hover,
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08);
+}
+
+/* ======================================== */
+/* PROJECT STATUS */
+/* ======================================== */
+
+.project-status {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: #e9ecef;
+  color: #212529;
+}
+
+/* ======================================== */
+/* DARK MODE */
+/* ======================================== */
+
+body.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Navbar */
+
+body.dark .navbar {
+  background-color: #111111 !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+body.dark .nav-link {
+  color: #e0e0e0 !important;
+}
+
+body.dark .nav-link.active {
+  color: #4dabf7 !important;
+}
+
+/* Footer */
+
+body.dark footer {
+  background-color: #111111 !important;
+  color: #f1f1f1 !important;
+}
+
+/* Section backgrounds */
+
+body.dark .bg-light {
+  background-color: #181818 !important;
+}
+
+body.dark .bg-white {
+  background-color: #1e1e1e !important;
+}
+
+/* Text */
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6,
+body.dark p,
+body.dark span,
+body.dark li,
+body.dark strong {
+  color: #f1f1f1;
+}
+
+body.dark .text-muted {
+  color: #bdbdbd !important;
+}
+
+/* Hero */
+
+body.dark .hero-image {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* Cards */
+
+body.dark .skill-card,
+body.dark .project-card,
+body.dark .contact-card {
+  background-color: #1e1e1e !important;
+  color: #f1f1f1 !important;
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.25);
+}
+
+/* About / Hero / Contact inner cards */
+
+body.dark #about .shadow,
+body.dark #hero .shadow,
+body.dark #contact .shadow {
+  background-color: #1e1e1e !important;
+  color: #f1f1f1 !important;
+}
+
+/* Social icons */
+
+body.dark .social-icon {
+  color: #f1f1f1;
+}
+
+body.dark .social-icon:hover {
+  color: #4dabf7;
+}
+
+/* Buttons */
+
+body.dark .btn-dark {
+  background-color: #f1f1f1;
+  color: #121212;
+  border-color: #f1f1f1;
+}
+
+body.dark .btn-dark:hover {
+  background-color: #dcdcdc;
+}
+
+body.dark .btn-outline-dark {
+  border-color: #f1f1f1;
+  color: #f1f1f1;
+}
+
+body.dark .btn-outline-dark:hover {
+  background-color: #f1f1f1;
+  color: #121212;
+}
+
+/* Toggle button */
+
+body.dark .btn-outline-light {
+  border-color: #f1f1f1;
+  color: #f1f1f1;
+}
+
+body.dark .btn-outline-light:hover {
+  background-color: #f1f1f1;
+  color: #121212;
+}
+
+/* Project status */
+
+body.dark .project-status {
+  background-color: #2c2c2c;
+  color: #f1f1f1;
+}
