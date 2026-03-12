@@ -1,45 +1,57 @@
-<head>
-  <meta charset="UTF-8" />
+<!doctype html>
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
 
-  <!-- Responsive -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    ```
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
-  <!-- Title -->
-  <title>Hasan Cebrail Törer | Full Stack Developer</title>
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO -->
-  <meta
-    name="description"
-    content="Hasan Cebrail Törer'in Full Stack Developer portföy sitesi. React, TypeScript, ASP.NET Core ve SQL ile geliştirdiğim projeleri inceleyebilirsiniz."
-  />
+    <!-- Title -->
+    <title>Hasan Cebrail Törer | Full Stack Developer</title>
 
-  <meta
-    name="keywords"
-    content="Hasan Cebrail Törer, Full Stack Developer, React Developer, ASP.NET Core Developer, TypeScript, Portfolio"
-  />
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Hasan Cebrail Törer'in Full Stack Developer portföy sitesi. React, TypeScript, ASP.NET Core ve SQL ile geliştirdiğim projeleri inceleyebilirsiniz."
+    />
 
-  <meta name="author" content="Hasan Cebrail Törer" />
+    <meta
+      name="keywords"
+      content="Hasan Cebrail Törer, Full Stack Developer, React Developer, ASP.NET Core Developer, TypeScript, Portfolio"
+    />
 
-  <!-- Open Graph (LinkedIn / WhatsApp / Facebook paylaşımı) -->
-  <meta
-    property="og:title"
-    content="Hasan Cebrail Törer | Full Stack Developer"
-  />
+    <meta name="author" content="Hasan Cebrail Törer" />
 
-  <meta
-    property="og:description"
-    content="React, TypeScript, ASP.NET Core ve SQL ile geliştirdiğim projeler."
-  />
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Hasan Cebrail Törer | Full Stack Developer"
+    />
+    <meta
+      property="og:description"
+      content="React, TypeScript, ASP.NET Core ve SQL ile geliştirdiğim projeler."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://personal-portfolio-zeta-jade-31.vercel.app/"
+    />
+    <meta property="og:image" content="/profile.jpg" />
+    ```
+  </head>
 
-  <meta property="og:type" content="website" />
+  <body>
+    <!-- React buraya render edilir -->
+    <div id="root"></div>
 
-  <meta
-    property="og:url"
-    content="https://personal-portfolio-zeta-jade-31.vercel.app/"
-  />
-
-  <meta property="og:image" content="/profile.jpg" />
-</head>
+    ```
+    <!-- Vite giriş noktası -->
+    <script type="module" src="/src/main.tsx"></script>
+    ```
+  </body>
+</html>
