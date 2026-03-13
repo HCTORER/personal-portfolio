@@ -5,10 +5,10 @@ export const projects = [
     id: 1,
     title: "Personal Portfolio",
     description:
-      "Kendimi, yeteneklerimi ve projelerimi sergilediğim kişisel portföy web sitesi.",
+      "React ve TypeScript kullanarak geliştirdiğim kişisel portföy web sitesi.Projelerimi, yeteneklerimi ve iletişim bilgilerimi sergilemek için tasarlanmıştır. ",
     technologies: ["React", "TypeScript", "Bootstrap"],
-    githubUrl: "https://github.com/HCTORER",
-    liveUrl: "",
+    githubUrl: "https://github.com/HCTORER/personal-portfolio",
+    liveUrl: "https://personal-portfolio-zeta-jade-31.vercel.app",
     status: "Tamamlandı",
     image: "",
   },
