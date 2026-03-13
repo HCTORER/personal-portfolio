@@ -8,7 +8,7 @@ function Projects() {
         <div className="text-center mb-5">
           <h2 className="fw-bold">Projelerim</h2>
           <p className="text-muted">
-            Öğrenme sürecimde geliştirdiğim ve GitHub’da paylaşacağım projeler
+            Öğrenme sürecimde geliştirdiğim ve GitHub’da paylaştığım projeler
           </p>
         </div>
 
@@ -22,6 +22,7 @@ function Projects() {
                 githubUrl={project.githubUrl}
                 liveUrl={project.liveUrl}
                 status={project.status}
+                image={project.image}
               />
             </div>
           ))}
