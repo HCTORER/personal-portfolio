@@ -2,47 +2,47 @@ export const skills = [
   {
     id: 1,
     title: "HTML5",
-    description: "Semantik ve düzenli sayfa yapıları oluştururum.",
+    description: "I create semantic and organized page structures.",
   },
   {
     id: 2,
     title: "CSS3",
-    description: "Responsive ve modern arayüzler geliştiririm.",
+    description: "I develop responsive and modern interfaces.",
   },
   {
     id: 3,
     title: "Bootstrap",
-    description: "Mobil uyumlu ve hızlı UI geliştirme sağlarım.",
+    description: "I provide mobile-friendly and fast UI development.",
   },
   {
     id: 4,
     title: "JavaScript",
-    description: "Etkileşimli kullanıcı deneyimleri geliştiririm.",
+    description: "I develop interactive user experiences.",
   },
   {
     id: 5,
     title: "TypeScript",
-    description: "Daha güvenli ve ölçeklenebilir frontend kodu yazarım.",
+    description: "I write more secure and scalable frontend code.",
   },
   {
     id: 6,
     title: "React",
-    description: "Component tabanlı modern web arayüzleri geliştiririm.",
+    description: "I develop component-based modern web interfaces.",
   },
   {
     id: 7,
     title: "ASP.NET Core",
-    description: " Güçlü ve düzenli Web API projeleri geliştiririm.",
+    description: " I develop powerful and organized Web API projects.",
   },
   {
     id: 8,
     title: "SQL",
-    description: "Veritabanı modelleme ve sorgu geliştirme yaparım.",
+    description: "I do database modeling and query development.",
   },
 
   {
     id: 9,
     title: "Git",
-    description: "Versiyon kontrol sistemi ile projeleri yönetirim.",
+    description: "I manage projects with a version control system.",
   },
 ];

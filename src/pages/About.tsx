@@ -3,26 +3,28 @@ function About() {
     <section id="about" className="py-5">
       <div className="container">
         <div className="text-center mb-5">
-          <h2 className="fw-bold">Hakkımda</h2>
-          <p className="text-muted">Yazılım yolculuğum ve hedeflerim</p>
+          <h2 className="fw-bold">About Me</h2>
+          <p className="text-muted">My software journey and goals</p>
         </div>
 
         <div className="row align-items-center">
           <div className="col-md-6">
             <h4 className="fw-bold mb-3">
-              Yazılım geliştirici olma yolundayım
+              Passionate Software Developer focused on building scalable and
+              real-world applications.
             </h4>
 
             <p className="text-muted">
-              Yazılım alanında kendimi sürekli geliştiriyor, modern web
-              teknolojileri ile projeler üretiyorum. Özellikle React, TypeScript
-              ve ASP.NET Core kullanarak full stack uygulamalar geliştirmeye
-              odaklanıyorum.
+              I am constantly improving myself in the field of software and
+              producing projects with modern web technologies. I focus on
+              developing full-stack applications, especially using React,
+              TypeScript, and ASP.NET Core.
             </p>
 
             <p className="text-muted">
-              Amacım güçlü projeler geliştirerek GitHub portföyümü büyütmek ve
-              profesyonel bir full stack developer olarak kariyerime başlamak.
+              I aim to enhance my GitHub portfolio through the development of
+              high-quality, real-world applications and establish myself as a
+              professional full-stack developer.
             </p>
           </div>
 
@@ -51,8 +53,10 @@ function About() {
 
               <div className="col-6">
                 <div className="p-4 shadow-sm rounded bg-light text-center">
-                  <h5 className="fw-bold">Hedef</h5>
-                  <p className="mb-0 small">Full Stack Developer</p>
+                  <h5 className="fw-bold">My Goal</h5>
+                  <p className="mb-0 small">
+                    Developing scalable, high-quality software solutions
+                  </p>
                 </div>
               </div>
             </div>

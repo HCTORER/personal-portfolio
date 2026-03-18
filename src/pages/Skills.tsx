@@ -6,9 +6,10 @@ function Skills() {
     <section id="skills" className="py-5 bg-light">
       <div className="container">
         <div className="text-center mb-5">
-          <h2 className="fw-bold">Yeteneklerim</h2>
+          <h2 className="fw-bold">My Skills</h2>
           <p className="text-muted">
-            Full stack developer olma yolunda kullandığım temel teknolojiler
+            The core technologies and tools I use to build modern, scalable
+            applications.
           </p>
         </div>
         <div className="row g-4">

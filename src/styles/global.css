@@ -357,3 +357,12 @@ body.dark .project-status {
 .project-preview-close:hover {
   background: rgba(0, 0, 0, 0.85);
 }
+
+a svg {
+  transition: 0.3s;
+}
+
+a:hover svg {
+  transform: scale(1.2);
+  color: #0d6efd;
+}

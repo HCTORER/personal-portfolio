@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 
 function Hero() {
   return (
@@ -7,30 +7,28 @@ function Hero() {
         <div className="row align-items-center">
           {/* SOL TARAF */}
           <div className="col-lg-6 hero-text">
-            <span className="text-primary fw-bold">
-              Frontend & Full Stack Developer Adayı
-            </span>
+            <span className="text-primary fw-bold">Full Stack Developer</span>
 
             <h1 className="display-4 fw-bold mt-3">
-              Merhaba, ben Hasan Cebrail Törer
+              Hello, I'm Hasan Cebrail Törer
             </h1>
 
             <p className="lead text-muted mt-3">
-              React, TypeScript, ASP.NET Core ve SQL teknolojileriyle gerçek
-              projeler geliştirerek full stack developer olma yolunda
-              ilerliyorum.
+              I am on my way to becoming a full stack developer by developing
+              real projects with React, TypeScript, ASP.NET Core and SQL
+              technologies.
             </p>
 
             <div className="mt-4 d-flex gap-3 flex-wrap">
               <a href="#projects" className="btn btn-dark btn-lg">
-                Projelerimi Gör
+                See My Projects
               </a>
 
               <a href="#contact" className="btn btn-outline-dark btn-lg">
-                Bana Ulaş
+                Contact Me
               </a>
               <a href="/cv.pdf" download className="btn btn-primary btn-lg">
-                CV İndir
+                Dowland CV
               </a>
             </div>
 
@@ -57,6 +55,9 @@ function Hero() {
               <a href="mailto:hasanctdev@outlook.com" className="social-icon">
                 <FaEnvelope size={28} />
               </a>
+              <a href="tel:+905434091826">
+                <FaPhone size={28} />
+              </a>
             </div>
           </div>
 
@@ -71,11 +72,11 @@ function Hero() {
 
             {/* Kariyer Hedefi */}
             <div className="p-4 bg-white shadow rounded-4 text-center">
-              <h5 className="fw-bold">Kariyer Hedefim</h5>
+              <h5 className="fw-bold">My Career Goal</h5>
 
               <p className="text-muted mb-0 mt-2">
-                Güçlü projeler geliştirip GitHub portföyümü büyüterek
-                profesyonel bir full stack developer olmak.
+                To become a professional full stack developer by developing
+                strong projects and growing my GitHub portfolio.
               </p>
             </div>
           </div>

@@ -70,7 +70,7 @@ function Navbar({ darkMode, setDarkMode }: NavbarProps) {
                 className={`nav-link ${activeSection === "about" ? "active" : ""}`}
                 href="#about"
               >
-                Hakkımda
+                About Me
               </a>
             </li>
 
@@ -79,7 +79,7 @@ function Navbar({ darkMode, setDarkMode }: NavbarProps) {
                 className={`nav-link ${activeSection === "skills" ? "active" : ""}`}
                 href="#skills"
               >
-                Yetenekler
+                Abilities
               </a>
             </li>
 
@@ -88,7 +88,7 @@ function Navbar({ darkMode, setDarkMode }: NavbarProps) {
                 className={`nav-link ${activeSection === "projects" ? "active" : ""}`}
                 href="#projects"
               >
-                Projeler
+                Projects
               </a>
             </li>
 
@@ -97,7 +97,7 @@ function Navbar({ darkMode, setDarkMode }: NavbarProps) {
                 className={`nav-link ${activeSection === "contact" ? "active" : ""}`}
                 href="#contact"
               >
-                İletişim
+                Contact Now
               </a>
             </li>
 

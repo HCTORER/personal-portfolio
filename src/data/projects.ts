@@ -5,11 +5,11 @@ export const projects = [
     id: 1,
     title: "Personal Portfolio",
     description:
-      "React ve TypeScript kullanarak geliştirdiğim kişisel portföy web sitesi.Projelerimi, yeteneklerimi ve iletişim bilgilerimi sergilemek için tasarlanmıştır. ",
+      "Personal portfolio website that I developed using React and TypeScript. It is designed to showcase my projects, talents, and contact information.",
     technologies: ["React", "TypeScript", "Bootstrap"],
     githubUrl: "https://github.com/HCTORER/personal-portfolio",
     liveUrl: "https://personal-portfolio-zeta-jade-31.vercel.app",
-    status: "Tamamlandı",
+    status: "Completed",
     image: "",
   },
   {
@@ -20,18 +20,18 @@ export const projects = [
     technologies: ["React", "TypeScript", "Bootstrap", "CSS", "LocalStorage"],
     githubUrl: "https://github.com/HCTORER/todo-task-manager",
     liveUrl: "https://todo-task-manager-five.vercel.app",
-    status: "Tamamlandı",
+    status: "Completed",
     image: todoTaskManager,
   },
   {
     id: 3,
     title: "Blog API",
     description:
-      "ASP.NET Core Web API ile geliştirilen temel blog yönetim backend projesi.",
+      "ASP.NET Core is a basic blog management backend project developed with Web API.",
     technologies: ["ASP.NET Core", "Web API", "SQL"],
     githubUrl: "https://github.com/HCTORER",
     liveUrl: "",
-    status: "Planlandı",
+    status: "Planned",
     image: "",
   },
 ];

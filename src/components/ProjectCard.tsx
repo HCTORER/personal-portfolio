@@ -67,7 +67,7 @@ function ProjectCard({
                 rel="noreferrer"
                 className="btn btn-outline-dark"
               >
-                Canlı Demo
+                Live Demo
               </a>
             )}
           </div>
