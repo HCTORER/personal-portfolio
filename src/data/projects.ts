@@ -1,4 +1,5 @@
 import todoTaskManager from "../assets/projects/todo-task-manager.png";
+import blogImage from "../assets/projects/blog-app.png";
 
 export const projects = [
   {
@@ -25,13 +26,26 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Blog API",
+    title: "BlogApp Full Stack",
     description:
-      "ASP.NET Core is a basic blog management backend project developed with Web API.",
-    technologies: ["ASP.NET Core", "Web API", "SQL"],
-    githubUrl: "https://github.com/HCTORER",
-    liveUrl: "",
-    status: "Planned",
-    image: "",
+      "A production-ready full stack blog platform built with React, TypeScript, ASP.NET Core Web API, and PostgreSQL. It includes JWT authentication, protected admin dashboard, CRUD operations, categories, pagination, and full deployment with Vercel and Render.",
+
+    technologies: [
+      "React",
+      "TypeScript",
+      "ASP.NET Core",
+      "PostgreSQL",
+      "JWT",
+      "Entity Framework",
+      "Axios",
+      "Vercel",
+      "Render",
+    ],
+
+    githubUrl: "https://github.com/HCTORER/blogapp-fullstack",
+    liveUrl: "https://blogapp-fullstack.vercel.app/",
+
+    status: "Completed",
+    image: blogImage,
   },
 ];
