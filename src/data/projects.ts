@@ -1,5 +1,6 @@
 import todoTaskManager from "../assets/projects/todo-task-manager.png";
 import blogImage from "../assets/projects/blog-app.png";
+import workflowProImage from "../assets/projects/workflowpro.png";
 
 export const projects = [
   {
@@ -47,5 +48,28 @@ export const projects = [
 
     status: "Completed",
     image: blogImage,
+  },
+  {
+    id: 4,
+    title: "WorkFlowPro SaaS",
+    description:
+      "Production-ready full-stack SaaS project management platform with multi-tenant architecture, JWT authentication, role-based access control, and Kanban workflow system. Deployed using Railway, Vercel, and PostgreSQL.",
+
+    technologies: [
+      "ASP.NET Core",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "JWT",
+      "Entity Framework",
+      "Railway",
+      "Vercel",
+    ],
+
+    githubUrl: "https://github.com/HCTORER/WorkFlowPro-FullStack",
+    liveUrl: "https://work-flow-pro-full-stack.vercel.app",
+
+    status: "Completed",
+    image: workflowProImage,
   },
 ];
